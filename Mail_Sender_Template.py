@@ -77,9 +77,9 @@ def send_email(user, password, from_addr, recipients_addr, subject, body, files_
 
 
 if __name__ == "__main__":
-    user = 'ashokvavre0008@gmail.com'         # Email userID
-    password = 'gncmxgqobobomtrb'      # Email password
-    from_addr = 'ashokvavre0008@gmail.com'
+    user = '*************@gmail.com'         # Email userID
+    password = '16_CHARACTRES_FOR_PASSWORD_FROM_GOOGLE_2FA'      # Email password
+    from_addr = '**********@gmail.com' //same as above user mail.
     data = pd.read_excel("expert.xlsx")
     names = list(data.Name)
     emails = list(data.Email)
